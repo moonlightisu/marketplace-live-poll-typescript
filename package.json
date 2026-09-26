@@ -1,0 +1,17 @@
+{
+  "name": "marketplace-live-poll-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/live_poll_service.ts",
+    "test": "tsx src/live_poll_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
